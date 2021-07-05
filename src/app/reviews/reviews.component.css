@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*Global Styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modifier {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*Customers Testimonials Section Styles*/
+
+.customers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.customers_title {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.customers_title::after {
+    background: white;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.testimonials {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.testimonials_text {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.profile_img {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.profile_name {
+    margin-top: -80px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (min-width:768px) {
+   
+    .customers_title::after {
+        width: 320px;
+    }
+    .testimonials {
+        margin: 10px;
+        width: 45%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .modifier {
+        width: 1000px;
+    }
+    .logo {
+        width: 1900%;
+    }
+    .logo_img {
+        width: 150px;
+    }
+    .title {
+        font-size: 80px;
+    }
+    .icon-bars {
+        display: none;
+    }
+    
+    .customers {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(fondo2.jpg);
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1300px) {
+    .customers {
+        width: 100%;
+    }
+}
+

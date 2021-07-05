@@ -1,0 +1,113 @@
+body, h1, h2, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif, Calibri;
+	font-size: 16px;
+}
+
+main {
+	color: #454754;
+	text-align: center;
+    background-image: linear-gradient(15deg, rgb(252, 206, 206) 0%, #dff8eb 100%);
+}
+
+.container, #about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Hamburger Menu (continued in the media queries section) */
+
+.highlight {
+	color: #d3a261;
+	font-family: 'Allura', cursive, Calibri, sans-serif;
+	text-transform: none;
+	font-size: 60px;
+}
+
+.brand, .topic {
+	letter-spacing: 15px;
+	margin-top: -30px;
+	font-weight: 900;
+	font-size: 35px;
+}
+
+header .symbol {
+	color: #d3a261;
+	font-size: 20px;
+	display: block;
+	position: relative;
+}
+
+header .symbol:before, header .symbol:after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	transform: translateY(-50%);
+	height: 2px;
+	width: 40%;
+	background-color: #f9f9f9;
+}
+
+/* Main */
+
+section#about, section#menu, section#reservation {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.content {
+	box-sizing: border-box;
+	padding: 40px;
+	width: 50%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+.topic {
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.content a{
+	color: #d3a261;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #d3a261;
+}
+
+.content h2 {
+	margin-top: 20px;
+}
+
+.content p:nth-of-type(2) {
+	line-height: 1.8;
+}
+
+.symbol {
+	color: #74788e;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img_container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+section img {
+	width: 60%;
+	min-width: 300px;
+}
+
+
+
+
+

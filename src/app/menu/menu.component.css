@@ -1,0 +1,158 @@
+.men{
+    background-image: linear-gradient(15deg, rgb(252, 206, 206) 0%, #dff8eb 100%);
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+a{
+    font-size: 65%;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #d3a261;
+	font-family: 'Allura', cursive, Calibri, sans-serif;
+	text-transform: none;
+}
+hr{
+    color: rgb(0, 0, 0);
+    height: 2px;
+    width: 20px;
+}
+h3{
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+  .card-image .card .card-img-wrapper {
+    height: 100%;
+  }
+  .card-image .card .card-body {
+    display: none;
+  }
+  .card-image-title-description .card .card-img-wrapper {
+    max-height: 100px;
+  }
+  .card-image-title-description .card {
+    position: relative;
+    min-height: 200px;
+  }
+  .card-image-title-description .card .card-body {
+    height: auto;
+    position: relative;
+    top: 10;
+    margin-bottom: -40px;
+  }
+  .card-image-title-description .card:hover .card-body {
+    top: -40px;
+  }
+  .card-image-title-description .card .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    height: 100%;
+  }
+  .card:hover {
+    box-shadow: 8px 12px 31px -10px #726b72;
+    border: 1px solid #999999 !important;
+  }
+  .card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+  }
+  .card-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .card:hover .card-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+  }
+  .card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background-color: #fff;
+    transition: 1.5s ease;
+  }
+  .card-content {
+    left: 0;
+    right: 0;
+    /* overflow: hidden; */
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
+    text-align: center;
+    font-size: 10px;
+    color: #161615;
+	font-family: 'Allura', cursive, Calibri, sans-serif;
+	text-transform: none;
+  }
+  .card:hover .card-body {
+    height: 75%;
+  }
+  .card:hover .card-content {
+    bottom: 0;
+  }
+  body {
+    margin: 0;
+    background-image: linear-gradient(to right, #ECE9E6 , #FFFFFF);
+  }
+  .card-text{
+      color: black;
+      align-items: left;
+      font-size: 10px;
+  }
+  .glyphicon-user {
+    color: rgb(19, 16, 16);
+}
+.glyphicon-log-in{
+    color: rgb(12, 10, 10);
+}
+.navbar {
+    /* position: relative;  */
+    vertical-align: middle;
+    /* background-color: rgb(163, 163, 163); */
+    box-shadow: rgb(87, 85, 85);
+}
+.brand {
+    position: absolute;
+    left: 5%;
+    margin-left: -100px !important;  /* 50% of your logo width */
+    display: block;
+    /* vertical-align: middle; */
+    text-align: center;
+}
+.navbar-brand{
+    position: absolute;
+    width: 5%;
+    left: 5px;
+    top: 0;
+    text-align: center;
+    margin: 5%;
+    vertical-align: middle;
+}
+nav{
+    box-shadow: rgb(87, 85, 85);
+}
